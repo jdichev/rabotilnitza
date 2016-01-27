@@ -149,14 +149,15 @@ footer .about {
   border-top: 1px dashed #d2d2d2;
   padding: 2.2em 3em;
   font-size: 0.7em;
-  -webkit-column-count: 3;
+  text-align: center;
+  /*-webkit-column-count: 3;
   -moz-column-count: 3;
   -ms-column-count: 3;
   column-count: 3;
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
   -ms-column-gap: 2em;
-  column-gap: 2em;
+  column-gap: 2em;*/
 }
 
 footer .copy {
@@ -433,4 +434,3 @@ code.lang-markdown .bullet {
     margin-bottom: 1em;
   }
 }
-
