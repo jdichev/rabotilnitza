@@ -7,7 +7,7 @@ body {
   font-family: 'Lora', serif;
   font-size: 21px;
   line-height: 1.52;
-  background-color: #f8f8f8;
+  background-color: #fff;
   text-rendering: optimizeLegibility;
 }
 
@@ -116,6 +116,10 @@ hr {
   margin-top: -0.3em;
 }
 
+.logo img {
+  width: 240px;
+}
+
 body.article-detail > header h1 {
   font-size: 2.5em;
   font-style: italic;
@@ -202,6 +206,10 @@ footer .copy, footer .copy a {
 .article header .date span {
   background-color: #f8f8f8;
   padding: 0 0.7em;
+}
+
+#content h1 {
+  text-align: center;
 }
 
 .article.intro .content p {

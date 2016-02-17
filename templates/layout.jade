@@ -19,8 +19,9 @@ html(lang='en')
         block header
           div.logo
             h1
-              a(href=locals.url)= locals.name
-            p.description= locals.description
+              a(href=locals.url title=locals.name)
+                img(src='/img/rabotilnitza.png' alt=locals.name)
+            //- p.description= locals.description
     div#content
       div.content-wrap
         block content

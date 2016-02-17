@@ -4,5 +4,16 @@
     "underscore": "1.4.x",
     "typogr": "0.5.x"
   },
-  "repository": "none"
+  "repository": "none",
+  "devDependencies": {
+    "gh-pages-deploy": "^0.4.0"
+  },
+  "gh-pages-deploy": {
+    "staticpath": "build",
+    "cname": "rabotilnitza.com",
+    "noprompt": false
+  },
+  "scripts": {
+    "deploy": "gh-pages-deploy"
+  }
 }
