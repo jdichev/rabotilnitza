@@ -14,6 +14,6 @@
     "noprompt": false
   },
   "scripts": {
-    "deploy": "gh-pages-deploy"
+    "publish": "git push origin --delete gh-pages && git subtree push --prefix=build origin gh-pages"
   }
 }

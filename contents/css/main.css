@@ -213,7 +213,7 @@ footer .copy, footer .copy a {
 }
 
 .article.intro .content p {
-  display: inline;
+  text-align: center;
 }
 
 .article.intro .content .more {
