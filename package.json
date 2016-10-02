@@ -6,7 +6,8 @@
   },
   "repository": "none",
   "devDependencies": {
-    "gh-pages-deploy": "^0.4.0"
+    "gh-pages-deploy": "^0.4.0",
+    "wintersmith": "^2.3.3"
   },
   "gh-pages-deploy": {
     "staticpath": "build",
